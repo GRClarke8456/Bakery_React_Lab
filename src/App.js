@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import CakeContainer from './containers/CakeContainer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1>BNTA Bakery</h1>
+      <h2>Welcome to the BNTA Bakery</h2>
+      <h2>Deliciousness in every bite!</h2>
+      <CakeContainer/>
+    </>
   );
 }
+// Create the header for the webpage, the welcome message and the slogan
+// Render the CakeContainer to allow access
+
 
 export default App;
